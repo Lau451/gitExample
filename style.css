@@ -2,7 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
+    align-items: space-between;
     margin: 0px;
 }
 
@@ -33,4 +33,14 @@ header {
     cursor: pointer;
     color: blue;
     background-color: yellow;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    height: 100px;
 }
